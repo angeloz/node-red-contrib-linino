@@ -1,0 +1,25 @@
+{
+    "name"         : "node-red-contrib-linino",
+    "version"      : "0.0.1",
+    "description"  : "Easy to use Arduino Yun nodes for node-red",
+    "dependencies": {
+      "fs-extra": "1.0.0",
+      "epoll": ">= 0.1.0"
+    },
+    "keywords": [ "arduino",
+      "gpio",
+      "yun",
+      "linino",
+      "lininoIO",
+      "industrial",
+      "101",
+      "tian"
+    ],
+    "author": "Angelo Zaia",
+    "license": "MIT",
+    "node-red"     : {
+        "nodes": {
+            "gpio": "gpio/gpio.js"
+        }
+    }
+}
